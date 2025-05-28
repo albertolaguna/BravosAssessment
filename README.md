@@ -5,6 +5,7 @@
 In order not to interfere with your global python environment, it´s recommended to use a virtual environment and then install the requirements.
 
 ``` bash
+cd backend
 py -m venv venv
 ./venv/Scripts/activate
 pip install -r requirements.txt
@@ -18,8 +19,10 @@ py dog_api_backend.py
 
 ## Frontend
 
-Run the frontend by executing the following command
+Install dependencies and run the frontend by executing the following commands
 ```bash
+cd frontend
+npm install
 npm start
 ```
 
