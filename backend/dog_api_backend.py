@@ -1,8 +1,10 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 import urllib.request
 import json
 
 app = Flask(__name__)
+CORS(app)
 BASE_URL = "https://dogapi.dog/api/v2"
 
 
